@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_poster"
+        android:src="@drawable/dawn_of_apes"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/tv_title"
+        android:text="Dawn of the Planet of the Apes"
+        android:layout_toRightOf="@id/iv_poster"
+        android:layout_marginLeft="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_rating"
+        android:layout_toRightOf="@id/iv_poster"
+        android:layout_below="@id/tv_title"
+        android:text="Rating 8.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_genre"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@id/iv_poster"
+        android:layout_alignParentBottom="true"
+        android:text="Actiong, Drama, Sci-Fi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_release_year"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="2dp"
+        android:text="2014"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
